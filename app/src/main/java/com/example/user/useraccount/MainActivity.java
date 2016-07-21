@@ -23,9 +23,8 @@ public class MainActivity extends AppCompatActivity {
         pwd = (EditText) findViewById(R.id.pwd);
     }
 
-    public void onButtonClicked(View v) {
+    public void onClick_login(View v) {
         Intent i = new Intent(this, SubActivity.class);
-        String strId = id.getText().toString();
-        String strPwd = pwd.getText().toString();
+        startActivity(i);
     }
 }
