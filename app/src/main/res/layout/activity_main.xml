@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.user.useraccount.MainActivity"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:orientation="vertical">
 
     <include
         android:layout_width="match_parent"
@@ -17,6 +16,8 @@
         android:layout_height="50dp"
         android:id="@+id/id"
         android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
         android:hint="Username"
         android:drawableLeft="@drawable/user"/>
 
@@ -25,6 +26,7 @@
         android:layout_height="50dp"
         android:id="@+id/pwd"
         android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
         android:hint="****"
         android:layout_below="@+id/id"
         android:drawableLeft="@drawable/password" />
