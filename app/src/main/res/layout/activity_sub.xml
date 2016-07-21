@@ -19,7 +19,6 @@
         android:layout_gravity="left"
         android:onClick="onClick_add"
         android:src="@drawable/add"
-        android:layout_weight="0.02"
         android:paddingTop="10dp"
         android:layout_alignParentEnd="true"
         android:layout_alignBottom="@+id/include"
